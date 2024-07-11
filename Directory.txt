@@ -1,0 +1,11 @@
+/big-canyon-band-page
+    /images
+        background.jpg
+        dj1.jpg
+        dj2.jpg
+        dj3.jpg
+    /videos
+        djvideo1.mp4
+        djvideo2.mp4
+    index.html
+    styles.css
