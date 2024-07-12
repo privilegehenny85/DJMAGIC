@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ MAGIC</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>DJ MAGIC</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#media">Media</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome</h2>
+        <p>Welcome to the official website of DJ MAGIC. Here you can find information about my gigs, see photos and videos of my performances, and get in touch for bookings.</p>
+        <img src="Card.jpg" alt="DJ MAGIC performing">
+    </section>
+
+    <section id="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="dj1.jpg" alt="DJing photo 1">
+            <img src="dj2.jpg" alt="DJing photo 2">
+            <img src="dj3.jpg" alt="DJing photo 3">
+            <!-- Add more photos as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <p>Email: juanmendez1633@gmail.com</p>
+        <p>Phone: (404) 906-5695</p>
+        <div class="social-media">
+            <a href="your-facebook-url">Facebook</a>
+            <a href="your-instagram-url">Instagram</a>
+            <a href="your-twitter-url">Twitter</a>
+        </div>
+    </section>
+
+    <section id="media">
+        <h2>Media</h2>
+        <div class="videos">
+            <iframe width="560" height="315" src="your-video-url-1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="your-video-url-2" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 DJ MAGIC. All rights reserved.</p>
+    </footer>
+</body>
+</html>
