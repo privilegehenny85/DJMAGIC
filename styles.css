@@ -1,43 +1,86 @@
-body.background {
-    background-image: url('BACKGROUND.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+body {
     margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
 }
 
 header {
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    color: white;
-    padding: 10px 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
     text-align: center;
 }
 
-header nav ul {
-    list-style: none;
+nav ul {
+    list-style-type: none;
     padding: 0;
 }
 
-header nav ul li {
+nav ul li {
     display: inline;
-    margin: 0 15px;
+    margin-right: 20px;
 }
 
-header nav ul li a {
+nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 section {
-    background: rgba(255, 255, 255, 0.8); /* Semi-transparent background for sections */
-    margin: 20px auto;
-    padding: 20px;
-    max-width: 800px;
+    padding: 60px 20px;
+    background: rgba(0, 0, 0, 0.5);
+    margin: 20px;
     border-radius: 10px;
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 10px;
 }
 
 .gallery img {
     width: 100%;
     height: auto;
-    border-radius:
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label, form input, form textarea, form button {
+    margin: 10px 0;
+}
+
+form input, form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
