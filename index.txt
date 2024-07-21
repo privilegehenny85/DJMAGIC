@@ -6,9 +6,7 @@
     <title>DJ MAGIC</title>
     <link rel="stylesheet" href="styles.css">
 </head>
- <div class="background-image"></div>
-    <div class="BACKGROUND.jpg">
-<body>
+<body class="BACKGROUND.jpg">
     <header>
         <h1>DJ MAGIC</h1>
         <nav>
@@ -23,17 +21,15 @@
 
     <section id="home">
         <h2>Welcome</h2>
-        <p>Welcome to the official website of DJ MAGIC. Here you can find information about my gigs, see photos and videos of my performances, and get in touch for bookings.</p>
-        <img src="BACKGROUND.jpg" alt="DJ MAGIC performing">
+        <p>Welcome to the official website of DJ MAGIC. Servicing the North GA & Atlanta areas, with additional fees for out-of-town bookings.</p>
+        <img src="background.jpg" alt="DJ MAGIC background">
     </section>
 
     <section id="gallery">
         <h2>Gallery</h2>
         <div class="gallery">
-            <img src="dj1.jpg" alt="DJing photo 1">
-            <img src="BACKGROUND.jpg" alt="DJing photo 2">
-            <img src="BACKGROUND.jpg" alt="DJing photo 3">
-            <!-- Add more photos as needed -->
+            <img src="background.jpg" alt="DJing photo 1">
+            <!-- Add more images as needed -->
         </div>
     </section>
 
@@ -52,7 +48,7 @@
         <p>Phone: (404) 906-5695</p>
         <div class="social-media">
             <a href="your-facebook-url">Facebook</a>
-            <a href="your-instagram-url">Instagram</a>
+            <a href="https://www.instagram.com/djmagic54/">Instagram</a>
             <a href="your-twitter-url">Twitter</a>
         </div>
     </section>
@@ -60,8 +56,8 @@
     <section id="media">
         <h2>Media</h2>
         <div class="videos">
-            <iframe width="560" height="315" src="https://youtu.be/XkI8w0H_OwA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <iframe width="560" height="315" src="https://youtu.be/XkI8w0H_OwA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/your-video-id" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <!-- Add more video embeds as needed -->
         </div>
     </section>
 
